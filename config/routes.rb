@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
-  #resources :page
-   get 'pages/index'
+  resources :pages
+   #get 'pages/index'
   # get 'pages/show'
   # get 'pages/new'
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
