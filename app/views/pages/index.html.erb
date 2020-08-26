@@ -1,6 +1,7 @@
 <h1>Post It Notes</h1>
 <% @pages.each do |page|%>
     <h2><%= page.title %></h2>
-    <%= link_to "Show Post", page_path(page)%>
+    <%= link_to "Show Post", page_path(page[:id])%>
+   
     <%end%>
 

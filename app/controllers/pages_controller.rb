@@ -6,7 +6,8 @@ class PagesController < ApplicationController
   end
 
   def show
-    @page = Page.find(1)
+    
+    @page = Page.find(params[:id])
   end
 
   def new
